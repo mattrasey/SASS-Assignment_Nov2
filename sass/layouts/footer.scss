@@ -1,0 +1,43 @@
+@import '../partials/variables';
+
+footer {
+  background-color: $background_color_1;
+  color: invert($color_4);
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: left;
+}
+.Smile {
+  img {
+    float: left;
+  }
+  font-size: 17px;
+  padding-right: 2%;
+  padding-bottom: 4%;
+}
+
+.FooterColumns {
+  ul {
+    padding-left: 0%;
+    font-size: 18px;
+    display: block;
+    float: left;
+    width: 20%;
+  }
+  a {
+    color: invert($color_4);
+  }
+  li {
+    list-style: none;
+    padding-top: 8px;
+    color: invert($color_4);
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .row.content {
+    height: auto;
+  }
+}

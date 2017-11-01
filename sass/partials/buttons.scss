@@ -1,0 +1,81 @@
+@import '../partials/variables';
+
+.btn {
+  border-radius: 7px;
+  color: $color_2;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 5px 12px 5px 12px;
+  border: solid rgb(48,72,143) 1px;
+  text-decoration: none;
+  a {
+    margin-left: 6px;
+  }
+  &:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+}
+
+.btn2 {
+  border-radius: 7px;
+  color: $color_2;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 5px 12px 5px 12px;
+  border: solid #30488f 1px;
+  text-decoration: none;
+  a {
+    margin-left: 6px;
+    font-size: 1.9vw;
+  }
+}
+
+.btn3 {
+  border-radius: 7px;
+  color: $color_3;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 5px 12px 5px 12px;
+  border: solid #bdb5af 1px;
+  text-decoration: none;
+  margin-bottom: 8%;
+  text-align: left;
+  a {
+    margin-left: 6px;
+    color: $color_3;
+  }
+}
+
+.btn4 {
+  border-radius: 7px;
+  font-size: 14px;
+  background: #30488f;
+  padding: 5px 12px 5px 12px;
+  text-decoration: none;
+}
+
+.FirstSectionButtons {
+  color: $color_1;
+  padding-top: 2%;
+  h2 {
+    color: $color_1;
+    font-size: 18px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .btn4 {
+    margin-left: 2%;
+  }
+
+}
+@media screen and (min-width: 767px) {
+  .btn2 {
+    a {
+      font-size: .98vw;
+    }
+  }
+}
+

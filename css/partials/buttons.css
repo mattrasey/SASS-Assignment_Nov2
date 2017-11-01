@@ -1,0 +1,63 @@
+.btn {
+  border-radius: 7px;
+  color: #30488f;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 5px 12px 5px 12px;
+  border: solid #30488f 1px;
+  text-decoration: none; }
+  .btn a {
+    margin-left: 6px; }
+  .btn:hover {
+    background: #3cb0fd;
+    text-decoration: none; }
+
+.btn2 {
+  border-radius: 7px;
+  color: #30488f;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 5px 12px 5px 12px;
+  border: solid #30488f 1px;
+  text-decoration: none; }
+  .btn2 a {
+    margin-left: 6px;
+    font-size: 1.9vw; }
+
+.btn3 {
+  border-radius: 7px;
+  color: #bdb5af;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 5px 12px 5px 12px;
+  border: solid #bdb5af 1px;
+  text-decoration: none;
+  margin-bottom: 8%;
+  text-align: left; }
+  .btn3 a {
+    margin-left: 6px;
+    color: #bdb5af; }
+
+.btn4 {
+  border-radius: 7px;
+  font-size: 14px;
+  background: #30488f;
+  padding: 5px 12px 5px 12px;
+  text-decoration: none; }
+
+.FirstSectionButtons {
+  color: #58402c;
+  padding-top: 2%; }
+  .FirstSectionButtons h2 {
+    color: #58402c;
+    font-size: 18px;
+    padding-top: 10px; }
+
+@media screen and (min-width: 1200px) {
+  .btn4 {
+    margin-left: 2%; } }
+@media screen and (min-width: 767px) {
+  .btn2 a {
+    font-size: .98vw; } }
+
+/*# sourceMappingURL=buttons.css.map */

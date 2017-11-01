@@ -1,0 +1,207 @@
+.btn {
+  border-radius: 7px;
+  color: #30488f;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 5px 12px 5px 12px;
+  border: solid #30488f 1px;
+  text-decoration: none; }
+  .btn a {
+    margin-left: 6px; }
+  .btn:hover {
+    background: #3cb0fd;
+    text-decoration: none; }
+
+.btn2 {
+  border-radius: 7px;
+  color: #30488f;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 5px 12px 5px 12px;
+  border: solid #30488f 1px;
+  text-decoration: none; }
+  .btn2 a {
+    margin-left: 6px;
+    font-size: 1.9vw; }
+
+.btn3 {
+  border-radius: 7px;
+  color: #bdb5af;
+  font-size: 14px;
+  background: #ffffff;
+  padding: 5px 12px 5px 12px;
+  border: solid #bdb5af 1px;
+  text-decoration: none;
+  margin-bottom: 8%;
+  text-align: left; }
+  .btn3 a {
+    margin-left: 6px;
+    color: #bdb5af; }
+
+.btn4 {
+  border-radius: 7px;
+  font-size: 14px;
+  background: #30488f;
+  padding: 5px 12px 5px 12px;
+  text-decoration: none; }
+
+.FirstSectionButtons {
+  color: #58402c;
+  padding-top: 2%; }
+  .FirstSectionButtons h2 {
+    color: #58402c;
+    font-size: 18px;
+    padding-top: 10px; }
+
+@media screen and (min-width: 1200px) {
+  .btn4 {
+    margin-left: 2%; } }
+@media screen and (min-width: 767px) {
+  .btn2 a {
+    font-size: .98vw; } }
+.navbar {
+  margin-bottom: 0;
+  margin-top: 1%;
+  border-radius: 0;
+  width: 90%;
+  padding-left: 10%; }
+  .navbar a {
+    color: #58402c; }
+  .navbar li {
+    display: inline;
+    padding-left: 3%; }
+  .navbar ul {
+    text-align: right;
+    padding-left: 0px; }
+
+.Logo {
+  display: block;
+  float: left; }
+
+.RightNavElements {
+  display: block;
+  padding-left: 42%; }
+
+.underline {
+  padding-left: 12%;
+  padding-right: 11%; }
+
+.clearfix {
+  overflow: auto; }
+
+@media screen and (min-width: 1200px) {
+  .navbar li {
+    padding-left: 7%; } }
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px; }
+
+  .row.content {
+    height: auto; } }
+footer {
+  background-color: #ffffff;
+  color: #0b1014;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: left; }
+
+.Smile {
+  font-size: 17px;
+  padding-right: 2%;
+  padding-bottom: 4%; }
+  .Smile img {
+    float: left; }
+
+.FooterColumns ul {
+  padding-left: 0%;
+  font-size: 18px;
+  display: block;
+  float: left;
+  width: 20%; }
+.FooterColumns a {
+  color: #0b1014; }
+.FooterColumns li {
+  list-style: none;
+  padding-top: 8px;
+  color: #0b1014;
+  font-size: 12px; }
+
+@media screen and (max-width: 767px) {
+  .row.content {
+    height: auto; } }
+body {
+  background-color: #ffffff;
+  overflow-x: hidden;
+  font-family: "Source Sans Pro", sans-serif; }
+
+.Logo {
+  display: block;
+  float: left; }
+
+.clearfix {
+  overflow: auto; }
+
+.FirstSection {
+  padding-left: 25%;
+  padding-right: 25%;
+  color: #58402c;
+  background-color: #ffffff; }
+  .FirstSection h2 {
+    color: #58402c;
+    font-size: 18px;
+    padding-top: 10px; }
+
+.FirstSectionButtons {
+  color: #58402c;
+  padding-top: 2%; }
+  .FirstSectionButtons h2 {
+    color: #58402c;
+    font-size: 18px;
+    padding-top: 10px; }
+
+.TanBG {
+  background-color: #ffe7d2; }
+
+.SecondSection {
+  padding-left: 20%;
+  padding-right: 20%;
+  color: #58402c;
+  width: 100%; }
+  .SecondSection h1 {
+    font-size: 26px;
+    padding-bottom: 10%; }
+  .SecondSection img {
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 2%;
+    width: 32%; }
+  .SecondSection p {
+    display: block;
+    float: left;
+    width: 33%;
+    padding-left: 6%;
+    padding-right: 0%;
+    font-size: 8px;
+    padding-bottom: 6%; }
+
+.SecondSectionHeader {
+  padding-top: 8%; }
+
+.SeperateImage {
+  float: none;
+  display: inline; }
+  .SeperateImage img {
+    padding-bottom: 6%; }
+
+@media screen and (min-width: 767px) {
+  .SecondSection p {
+    font-size: 17px; }
+  .SecondSection img {
+    width: 33%; } }
+@media screen and (max-width: 767px) {
+  .row.content {
+    height: auto; } }
+
+/*# sourceMappingURL=style.css.map */
